@@ -10,7 +10,7 @@ Debug build of `vulkan-sdk-1.4.321.0` which includes alignment issue in `GUARD_B
 
 ### Fixed Alignment
 
-Debug build of `vulkan-sdk-1.4.321.0` with [alignment fix](https://github.com/KhronosGroup/glslang/pull/4137) to `GUARD_BLOCKS`.
+Debug build of `vulkan-sdk-1.4.321.0` with [alignment fix](https://github.com/KhronosGroup/glslang/pull/4137) to `GUARD_BLOCKS`. Adding problematic code to `ASYNCIFY_REMOVE` also avoids the issue.
 
 ![](fix.png)
 
